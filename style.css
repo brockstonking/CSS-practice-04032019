@@ -1,20 +1,22 @@
 .content {
     margin: auto;
-    width: 40%;
+    width: 325px;
     margin-top: 180px;
-    height: 305px;
-    padding-top: 90px;
+    height: 360px;
+    padding-top: 20px;
     background-color: rgba(159, 120, 50, 0.5);
     border-radius: 16px;
 }
                         
-.text {                   
-    position: relative;                   
+.text {      
+    margin: auto;                               
     top: 0px;                   
     left: 52px;                   
     color: white;                   
-    width: 232px;                   
+    width: 90%;                   
     TEXT-ALIGN: CENTER;
+    display: flex;
+    justify-content: space-around;
 }
                         
 .inputs {
@@ -40,27 +42,27 @@
     margin-left: 15px;
 }
                         
-.loginButton {                        
-    position: relative;                    
-    left: 25%;                    
-    height: 30px;                    
-    width: 165px;                    
-    top: 20px;                    
-    border-radius: 6px;                    
-    background-color: #4d6d4e;                    
-    border: 0px;                        
+.loginButton {
+    /* position: relative; */
+    /* left: 25%; */
+    height: 30px;
+    width: 165px;
+    top: 20px;
+    border-radius: 6px;
+    background-color: #4d6d4e;
+    border: 0px;
     color: white;
 }
                         
-.register {                        
-    position: relative;                    
-    top: 21px;                    
+.register {
+    /* position: relative; */
+    top: 21px;
     left: 74px;
 }
                         
-.forgotPassword {                        
-    position: relative;                    
-    left: 165px;
+.forgotPassword {
+    /* position: relative; */
+    /* left: 165px; */
 }
                         
 body {                        
@@ -75,9 +77,12 @@ body {
     color: white;
 }    
                     
-.register-section {                    
-    color: white;                
+.register-section {
+    color: white;
     font-size: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
 }    
             
 .background-image {                    
@@ -88,11 +93,23 @@ body {
     filter: blur(8px);
 }
     
-.logo-image {                
-    top: 195px;                    
-    height: 75px;                
-    width: 75px;   
-    position: absolute;    
-    left: 377px;
+.logo-image {
+    /* top: 195px; */
+    height: 75px;
+    width: 75px;
+    /* position: absolute; */
+    /* left: 377px; */
     border-radius: 50px;
+}
+
+.logo-container {    
+    width: 100%;    
+    display: flex;    
+    justify-content: space-around;
+}
+
+.button-container {       
+    display: flex;     
+    justify-content: center;       
+    margin-top: 15px;
 }
