@@ -1,0 +1,98 @@
+.content {
+    margin: auto;
+    width: 40%;
+    margin-top: 180px;
+    height: 305px;
+    padding-top: 90px;
+    background-color: rgba(159, 120, 50, 0.5);
+    border-radius: 16px;
+}
+                        
+.text {                   
+    position: relative;                   
+    top: 0px;                   
+    left: 52px;                   
+    color: white;                   
+    width: 232px;                   
+    TEXT-ALIGN: CENTER;
+}
+                        
+.inputs {
+    width: 225px;
+    margin: auto;
+}
+                        
+.inputFields {                        
+    margin: 10px;                        
+    margin-left: 25px;
+}
+
+.rememberMe {  
+    display: flex;
+    margin-left: 10px;
+}
+                        
+.checkBox {                    
+    height: 16px;                    
+    width: 10px;                    
+    margin-top: 0px;                    
+    margin-right: 2px;                    
+    margin-left: 15px;
+}
+                        
+.loginButton {                        
+    position: relative;                    
+    left: 25%;                    
+    height: 30px;                    
+    width: 165px;                    
+    top: 20px;                    
+    border-radius: 6px;                    
+    background-color: #4d6d4e;                    
+    border: 0px;                        
+    color: white;
+}
+                        
+.register {                        
+    position: relative;                    
+    top: 21px;                    
+    left: 74px;
+}
+                        
+.forgotPassword {                        
+    position: relative;                    
+    left: 165px;
+}
+                        
+body {                        
+    padding: 1px;                    
+    font-family: sans-serif;                    
+    margin: 0px;
+}
+                        
+.rememberText {                        
+    font-size: 9px;                    
+    margin-top: 4px;                    
+    color: white;
+}    
+                    
+.register-section {                    
+    color: white;                
+    font-size: 10px;
+}    
+            
+.background-image {                    
+    z-index: -1;                
+    position: absolute;                
+    height: 100vh;                
+    width: 150%;                
+    filter: blur(8px);
+}
+    
+.logo-image {                
+    top: 195px;                    
+    height: 75px;                
+    width: 75px;   
+    position: absolute;    
+    left: 377px;
+    border-radius: 50px;
+}
